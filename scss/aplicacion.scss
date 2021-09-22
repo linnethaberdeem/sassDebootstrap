@@ -1,0 +1,49 @@
+// variables-operadores matemáticos
+
+$ancho: 990px;
+$alto: 400px;
+$blue: #cbeaf8;
+$green: #33d374;
+$rosa: rgb(245, 147, 166);
+$blanco: white;
+$redes: facebook rgb(18, 60, 173),
+twitter rgb(94, 178, 211),
+instagram rgb(174, 48, 185),
+whatsapp rgb(54, 243, 133),
+youtube rgb(243, 21, 21);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+
+.box_uno{
+    background-color: $blue;
+    width: $ancho;    
+}
+.box_dos{
+    background-color: $blue;
+    width: $ancho;
+    height: 450px
+}
+.box_tres{
+    background-color: $blue;
+    width: $ancho;
+    
+}
+.box_cuatro{
+    background-color: $blue;
+    width: $ancho;
+    
+}
+.box_cinco{
+    background-color: $blue;
+    width: $ancho;
+    
+}
+
+@import "body";
+@import "footer";
+@import "main";
+@import "aside";

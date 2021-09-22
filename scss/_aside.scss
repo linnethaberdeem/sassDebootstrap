@@ -1,0 +1,26 @@
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_tres{
+    margin-top: 20px;
+    padding: 20px;
+    border: dashed 1px $rosa;
+    font-family: 'Josefin Slab', serif;
+}
+.box_cuatro{
+    margin-top: 20px;
+    padding: 20px;
+    border: dashed 1px $rosa;
+    font-family: 'Josefin Slab', serif;
+}
+.box_cinco{
+    margin-top: 20px;
+    padding: 20px;
+    border: dashed 1px $rosa;
+    font-family: 'Josefin Slab', serif;
+}
+.apart{
+    @extend .subtitulo
+}

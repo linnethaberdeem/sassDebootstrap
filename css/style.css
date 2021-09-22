@@ -1,0 +1,175 @@
+.btn--facebook {
+  background-color: #123cad; }
+
+.btn--twitter {
+  background-color: #5eb2d3; }
+
+.btn--instagram {
+  background-color: #ae30b9; }
+
+.btn--whatsapp {
+  background-color: #36f385; }
+
+.btn--youtube {
+  background-color: #f31515; }
+
+.box_uno {
+  background-color: #cbeaf8;
+  width: 990px; }
+
+.box_dos {
+  background-color: #cbeaf8;
+  width: 990px;
+  height: 450px; }
+
+.box_tres {
+  background-color: #cbeaf8;
+  width: 990px; }
+
+.box_cuatro {
+  background-color: #cbeaf8;
+  width: 990px; }
+
+.box_cinco {
+  background-color: #cbeaf8;
+  width: 990px; }
+
+body {
+  background-color: #f8f9fa;
+  text-align: justify;
+  line-height: 25px; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Lobster Two', cursive;
+  color: #f593a6;
+  background-color: #cbeaf8;
+  width: 100%;
+  height: 80px;
+  font-size: 3em;
+  padding-top: 35px; }
+
+.subtitulo, .apart {
+  font-family: 'Lobster Two', cursive;
+  color: #f593a6;
+  font-size: 2em; }
+
+.imagen {
+  display: block;
+  align-items: center;
+  justify-content: center; }
+
+.footer, .redesSociales {
+  background-color: gray;
+  width: 100%;
+  height: auto; }
+
+.pie_footer {
+  background-color: black;
+  width: 100%;
+  height: auto; }
+
+.titulo_footer {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+.span_sub {
+  color: yellow;
+  font-weight: 500; }
+
+.hacemos {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 800; }
+
+.prod {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 800; }
+
+.contactos_f {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 800; }
+
+.titulo_h {
+  color: white; }
+
+.sub_h {
+  color: white; }
+
+.titulo_p {
+  color: white; }
+
+.titulo_contacto {
+  color: white; }
+
+#local {
+  color: yellow;
+  font-size: 25px; }
+
+.direccion {
+  color: white;
+  margin-left: 25px; }
+
+.siguenos {
+  background: yellow;
+  width: 45%;
+  height: 45px;
+  margin: 0 auto; }
+
+.boton {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-weight: 800; }
+
+.redesSociales {
+  align-items: center; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .box_uno {
+  margin-top: 50px;
+  padding: 20px;
+  border: dashed 1px #f593a6;
+  font-family: 'Josefin Slab', serif; }
+
+article .box_dos {
+  margin-top: 20px;
+  padding: 20px;
+  border: dashed 1px #f593a6;
+  font-family: 'Josefin Slab', serif; }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.box_tres {
+  margin-top: 20px;
+  padding: 20px;
+  border: dashed 1px #f593a6;
+  font-family: 'Josefin Slab', serif; }
+
+.box_cuatro {
+  margin-top: 20px;
+  padding: 20px;
+  border: dashed 1px #f593a6;
+  font-family: 'Josefin Slab', serif; }
+
+.box_cinco {
+  margin-top: 20px;
+  padding: 20px;
+  border: dashed 1px #f593a6;
+  font-family: 'Josefin Slab', serif; }

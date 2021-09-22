@@ -1,0 +1,77 @@
+.footer{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+}
+.pie_footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.titulo_footer{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.span_sub{
+    color: yellow;
+    font-weight: 500;
+}
+.hacemos{
+    color: $blanco;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 800;
+}
+
+.prod{
+    color: $blanco;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 800;
+}
+.contactos_f{
+    color: $blanco;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 800;
+}
+.titulo_h{
+    color: $blanco;
+}
+.sub_h{
+    color: $blanco;
+}
+.titulo_p{
+    color: $blanco;
+}
+.titulo_contacto{
+    color: $blanco;
+}
+#local{
+    color: yellow;
+    font-size: 25px;
+}
+.direccion{
+    color: $blanco;
+    margin-left: 25px;
+}
+.siguenos{
+    background: yellow;
+    width: 45%;
+    height: 45px;
+    margin: 0 auto;
+}
+.boton{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: 800;
+}
+.redesSociales{
+    align-items: center;
+@extend .footer
+}
+
