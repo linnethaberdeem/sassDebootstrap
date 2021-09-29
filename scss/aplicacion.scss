@@ -1,22 +1,32 @@
 // variables-operadores matemáticos
 
+
+
 $ancho: 990px;
 $alto: 400px;
 $blue: #cbeaf8;
 $green: #33d374;
 $rosa: rgb(245, 147, 166);
 $blanco: white;
-$redes: facebook rgb(18, 60, 173),
-twitter rgb(94, 178, 211),
-instagram rgb(174, 48, 185),
-whatsapp rgb(54, 243, 133),
-youtube rgb(243, 21, 21);
 
-@each $red, $color in $redes{
-    .btn--#{$red}{
-        background-color: $color;
-    }
-}
+$principal: rgb(44,62,167);
+$twitter: rgb(81, 188, 238);
+$whatsapp: green;
+$instagram:rgb(172, 37, 199);
+$youtube: rgb(226, 38, 38);
+
+// MODIFICANDO LAS VARIABLES DE BOOTSTRAP
+
+$primary: $principal;
+$secondary: $twitter;
+$succes:$whatsapp;
+$info:$instagram;
+$warning:$youtube;
+$enable-rounded: false;
+
+
+@import "../bootstrap/bootstrap/scss/bootstrap";
+
 
 .box_uno{
     background-color: $blue;
