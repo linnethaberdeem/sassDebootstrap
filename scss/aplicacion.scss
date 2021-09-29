@@ -1,6 +1,5 @@
+
 // variables-operadores matemáticos
-
-
 
 $ancho: 990px;
 $alto: 400px;
@@ -19,13 +18,13 @@ $youtube: rgb(226, 38, 38);
 
 $primary: $principal;
 $secondary: $twitter;
-$succes:$whatsapp;
-$info:$instagram;
-$warning:$youtube;
+$succes: $whatsapp;
+$info: $instagram;
+$warning: $youtube;
 $enable-rounded: false;
 
 
-@import "../bootstrap/bootstrap/scss/bootstrap";
+@import "../bootstrap/bootstrap/scss/bootstrap.scss";
 
 
 .box_uno{
